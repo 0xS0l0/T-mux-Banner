@@ -1,0 +1,57 @@
+#!/bin/bash
+clear
+echo""
+
+echo -e '\e[92m'
+
+echo '
+
+	███ █   █ ███ ███ ███ █   █   ███ █   █ ███
+	 █  ██  █ █    █  █ █ █   █    █  ██  █ █
+	 █  █ █ █  █   █  █ █ █   █    █  █ █ █ █
+	 █  █  ██   █  █  ███ █   █    █  █  ██ █ █
+	███ █   █ ███  █  █ █ ███ ███ ███ █   █ ███ █ █  '
+
+echo ""
+	apt update
+echo ""
+	apt upgrade
+echo ""
+	apt install ruby
+echo ""
+	gem install lolcat
+echo ""
+	apt install figlet
+echo ""
+	apt install unzip
+echo ""
+	unzip .db.zip
+echo ""
+	rm .db.zip
+echo ""
+	apt install cowsay
+echo ""
+	chmod +x TXB.sh
+echo ""
+
+clear
+
+echo ""
+
+echo -e '\e[92m`````````````````````````````````````````````````'
+
+echo ""
+
+echo " Installation completed " | lolcat
+
+echo ""
+
+echo -e '\e[92m`````````````````````````````````````````````````'
+
+echo ""
+
+echo ' run $ bash TXB.sh '
+
+echo ""
+
+echo ""
