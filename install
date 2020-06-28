@@ -25,9 +25,9 @@ echo ""
 echo ""
 	apt install unzip
 echo ""
-	unzip .db.zip
+	unzip db.zip
 echo ""
-	rm .db.zip
+	rm db.zip
 echo ""
 	apt install cowsay
 echo ""
