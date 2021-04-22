@@ -17,19 +17,19 @@ echo ""
 echo ""
 	apt upgrade
 echo ""
-	apt install ruby
+	apt -y install ruby
 echo ""
-	gem install lolcat
+	gem -y install lolcat
 echo ""
-	apt install figlet
+	apt -y install figlet
 echo ""
-	apt install unzip
+	apt -y install unzip
 echo ""
 	unzip db.zip
 echo ""
 	rm db.zip
 echo ""
-	apt install cowsay
+	apt -y install cowsay
 echo ""
 	chmod +x TXB.sh
 echo ""
