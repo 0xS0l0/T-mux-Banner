@@ -1,0 +1,1 @@
+cowsay -f eyes $REPLAY | loocat
