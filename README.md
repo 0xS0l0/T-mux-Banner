@@ -9,7 +9,8 @@ $ apt upgrade
 
 $ apt install git
 
-$ git clone https://gitlab.com/0xsolo/t-mux-banner.git
+$ git clone https://github.com/0xS0l0/T-mux-Banner.git
+
 $ cd T-mux-Banner
 
 $ bash install
