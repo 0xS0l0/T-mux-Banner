@@ -23,12 +23,6 @@ echo ""
 echo ""
 	apt -y install figlet
 echo ""
-	apt -y install unzip
-echo ""
-	unzip db.zip
-echo ""
-	rm db.zip
-echo ""
 	apt -y install cowsay
 echo ""
 	chmod +x TXB.sh
